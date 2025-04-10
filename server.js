@@ -20,7 +20,7 @@
 // app.listen(5000, () => {
 //   console.log('Server is running on port 5000');
 // });
-const express = require('express'); // ✅ added this line
+const express = require('express');
 const cors = require('cors');
 const app = express();
 const jobs = require('./data/jobs.json');
@@ -30,6 +30,11 @@ app.use(express.json());
 
 app.get('/api/jobs', (req, res) => {
   res.json(jobs);
+});
+
+// ✅ Add this default route
+app.get('/', (req, res) => {
+  res.send('Job Backend is Running 🚀');
 });
 
 const PORT = process.env.PORT || 5000;
