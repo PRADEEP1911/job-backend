@@ -20,6 +20,7 @@
 // app.listen(5000, () => {
 //   console.log('Server is running on port 5000');
 // });
+const express = require('express'); // ✅ added this line
 const cors = require('cors');
 const app = express();
 const jobs = require('./data/jobs.json');
