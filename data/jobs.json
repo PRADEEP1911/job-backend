@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "title": "Full Stack Developer",
+      "company": "Amazon",
+      "location": "Bangalore",
+      "type": "Full-time",
+      "experience": "1-3 yr Exp",
+      "salary": "12 LPA",
+      "logo": "amazon.png",
+      "posted": "24h Ago"
+    },
+
+    {
+        "id": 2,
+        "title": "Front end Developer",
+        "company": "Cybermind",
+        "location": "Bangalore",
+        "type": "Full-time",
+        "experience": "0-3 yr Exp",
+        "salary": "5 LPA",
+        "logo": "",
+        "posted": "24h Ago"
+    }
+  ]
+  
